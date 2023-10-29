@@ -641,6 +641,7 @@ span {
 .mobile-head {
     font-size: 48px;
     margin-bottom: 32px;
+    margin-top: 60px;
 }
 
 .discount {
@@ -655,6 +656,93 @@ span {
     margin-top: -25px;
     font-size: px;
 }
+
+/* .Oxygen1{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    border: 2px solid red;
+}
+.oxygen2 {
+    display: flex;
+    border: 2px solid red;
+}
+.oxyflex {
+    
+} */
+
+.os-section {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    height: 400px;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.section {
+    width: 50%;
+    display: flex;
+    gap: 20px;
+    background-color: #222222;
+}
+
+.section-desc {
+    width: 50%;
+    position: relative;
+    padding: 20px;
+    background-color: #222222;
+}
+
+.section-img {
+    width: 51%;
+    overflow: hidden;
+}
+.section-img img {
+    width: 250%;
+    margin-left: -230px;
+    transition: ease-in-out .3s;
+}
+
+.section-img img:hover {
+    transform: scale(1.1);
+}
+
+
+.learn-more a {
+    color: #fff;
+}
+
+.learn-more a:hover {
+    color: blue;
+}
+
+.bottom-section {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+}
+
+.bottom-desc {
+    margin-bottom: 22px;
+    font-size: 14px;
+}
+
+.top-sub-head {
+    font-size: 20px;
+    opacity: 0.3;
+}
+.horizon-img {
+    width: 51%;
+    overflow: hidden;
+}
+
+.horizon-img img {
+    width: 120%;
+    margin-left: -30px;
+}
+
+
 
 
 
@@ -675,7 +763,9 @@ font-size: 18px;
 }
 /* .stay {
     margin-top: 20px; */
-}
+/* } */
+
+
 
 
 #footer-right {
