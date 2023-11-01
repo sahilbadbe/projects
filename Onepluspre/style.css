@@ -1,0 +1,149 @@
+.login {
+    max-width: 550px;
+    margin: auto;
+    background-color: #a6eeec;
+    border-radius: 30px;
+    box-shadow: 3px 35px 149px -3px rgba(0, 0, 0, 0.46);
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    padding: 25px;
+    position: relative;
+}
+
+.login-head h1 {
+    padding-top: 25px;
+    font-weight: 100;
+}
+
+.cross {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    opacity: 0.3;
+}
+
+.num {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    height: 35px;
+    border-radius: 3px;
+    background-color: #FFF;
+    margin-top: 30px;
+}
+
+.num input {
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.po {
+    margin-top: 6.5px;
+    margin-right: 10px;
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    padding: 10px;
+    gap: 5px;
+}
+
+.number i {
+    color: #000;
+    opacity: 0.55;
+}
+
+.verify input {
+    width: 79%;
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.verify p {
+    opacity: 0.5;
+}
+
+.get {
+    margin-top: 11px;
+    font-size: 12px;
+}
+
+.sign-in {
+    font-size: 12px;
+    margin-left: 85px;
+    margin-top: 10px;
+}
+
+.sign-in a {
+    text-decoration: none;
+    color: rgb(19, 123, 227);
+    font-weight: 600;
+}
+
+.continue {
+    width: 200px;
+    margin: auto;
+    background-color: #947eb9;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 20px;
+    margin-top: 40px;
+    opacity: 0.5;
+    font-weight: 100;
+    cursor: not-allowed ;
+}
+
+hr {
+    margin-top: 110px;
+    z-index: 6;
+    position: relative;
+    color: #000;
+}
+
+.other-ways {
+    margin-top: -10px;
+    z-index: 2;
+    text-align: center;
+}
+
+.login-icons {
+    display: flex;
+    justify-content: space-between;
+    max-width: 25%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.login-icons i {
+    font-size: 25px;
+}
+
+.privacy {
+    display: flex;
+    max-width: 85%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.sign {
+    max-width: 70%;
+    margin: auto;
+}
+
+.sign a {
+    color: rgb(19, 123, 227);
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+}
