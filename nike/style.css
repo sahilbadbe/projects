@@ -34,9 +34,10 @@ body {
     display: flex;
     text-decoration: none;
     color: black;
-    gap: 5px;
+    gap: 10px;
     align-items: center;
     padding-left: px;
+    font-size: 15px;
 }
 
 /* // secondhead */
@@ -62,23 +63,29 @@ body {
     gap: 20px;
     /* border: 1px solid red; */
     font-size: 20px;
+    padding-right: px;
+    padding-left: 170px;
     
 }
 
 .search-links {
     /* border: 1px solid red; */
+    align-items: center;
+    gap:50px;
     
 }
 
 #search {
     height: 30px;
     border-radius: 15px;
-    border-color: ;
-    color: #f5f5f5;
+    border-color:transparent ;
+    background-color: #f5f5f5;
+    padding-right:20px ;
+
 }
 .mini-logo {
-    height: 20px;
-    width: 20px;
+    height: 24px;
+    width: 24px;
 }
 
 /* thirdnavbar */
@@ -113,5 +120,9 @@ body {
     display: flex;
     gap: 25px;
     font-size: 20px
+}
+
+.first-image {
+   height: 100%;
 }
 
