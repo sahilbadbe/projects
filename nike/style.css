@@ -123,6 +123,84 @@ body {
 }
 
 .first-image {
-   height: 100%;
+   height: ;
+   width: ;
+   position: relative;
+   padding-top: 25px;
+   /* border: 1px solid red; */
 }
 
+.textstyle{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+.text-1 {
+    font-size: 18px;
+    padding-top: 50px;
+}
+.text-2 {
+    font-size: 60px;
+    font-style: inherit;
+    ;
+}
+.text-3 {
+    padding-top: 18px;
+
+}
+.buttonfix{
+    padding-top: 20px;
+    display: flex;
+}
+.button {
+    height: 35px;
+    width: 120px;
+    font-size: 17px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    
+}
+
+
+.names {
+    font-size: 25px;
+    padding: 40px;
+}
+.second-image{
+
+}
+.kicks {
+    padding-top: 30px;
+}
+
+/* slider  */
+
+.slider {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    padding-left: 100px;
+    gap: 20px;
+    overflow: scroll;
+}
+.sliderdivsize {
+    
+
+}
+.imagesize {
+    height: 30%;
+    width: 50%;
+    border: 1px solid red;
+}
+.slider1pad {
+    font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.pants {
+    display: flex;
+}
